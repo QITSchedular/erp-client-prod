@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "key": "$base-accent",
+      "value": "rgba(119, 99, 165, 1)"
+    },
+    {
+      "key": "$pager-page-selected-color",
+      "value": "rgba(255, 255, 255, 1)"
+    },
+    {
+      "key": "$pager-page-selected-bg",
+      "value": "rgba(119, 99, 165, 1)"
+    }
+  ],
+  "baseTheme": "material.base",
+  "assetsBasePath": "../../../node_modules/devextreme/dist/css/",
+  "outputColorScheme": "metadata_base",
+  "base": true
+}

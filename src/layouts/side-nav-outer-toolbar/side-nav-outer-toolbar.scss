@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.dx-drawer-panel-content{
+  // font-family: 'cursive',cursive;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+.side-nav-outer-toolbar {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.layout-header {
+  z-index: 1501;
+}
+.dx-state-selected{
+  background-color: #7763A5; 
+}
+.dx-state-hover{
+  background-color: red; 
+}
+.side-navigation-menu .menu-container .dx-treeview .dx-treeview-node-container .dx-treeview-node.dx-state-selected > .dx-treeview-item * {
+  color: white;
+}
+.side-navigation-menu .menu-container .dx-treeview .dx-treeview-node-container .dx-treeview-node:not(.dx-state-focused) > .dx-treeview-item.dx-state-hover{
+  background-color: rgba(139, 119, 185, 0.05);
+
+}

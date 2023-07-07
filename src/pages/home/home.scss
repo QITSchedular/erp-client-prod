@@ -1,0 +1,79 @@
+.logos-container {
+  margin: 20px 0 40px 0;
+  text-align: center;
+  svg {
+    display: inline-block;
+  }
+}
+
+.devextreme-logo {
+  width: 200px;
+  height: 34px;
+  margin-bottom: 19px;
+}
+
+.react-logo {
+  width: 184px;
+  height: 68px;
+}
+
+.plus {
+  margin: 23px 10px;
+  width: 22px;
+  height: 22px;
+}
+
+.screen-x-small .logos-container {
+  svg {
+    width: 100%;
+    display: block;
+    &.plus {
+      margin: 0;
+    }
+  }
+}
+.all-class-holder{
+  display: grid;
+  grid-template-columns: 176px 176px 176px 176px 176px 176px;
+  gap: 15px;
+  justify-content: center;
+  
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 440px) {
+  .all-class-holder {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .all-class-holder {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .all-class-holder {
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .all-class-holder {
+    grid-template-columns: 176px 176px 176px 176px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .all-class-holder {
+    grid-template-columns: 176px 176px 176px 176px 176px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .all-class-holder {
+    grid-template-columns: 176px 176px 176px 176px 176px;
+  }
+}
+
